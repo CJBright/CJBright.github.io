@@ -107,6 +107,13 @@ hr {border-style: none;
     padding: 10px 10px 15px 10px;
 }
 
+.code-logo-title{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    padding: 10px 10px 15px 10px;
+}
+
 .phd-row{
     padding-bottom: 15px;
 }
