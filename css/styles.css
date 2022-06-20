@@ -33,6 +33,11 @@ hr {border-style: none;
     width: 5%;
 }
 
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
 /****** Class selectors ******/
 /* */
 /*General items*/
@@ -49,6 +54,7 @@ hr {border-style: none;
 .body-text{
     margin-top: 32px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 /*top-container items*/
