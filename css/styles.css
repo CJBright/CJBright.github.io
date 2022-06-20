@@ -61,9 +61,13 @@ hr {border-style: none;
     padding-top: 12px;
 }
 
-.profile-image{
-    width: 65%;
-    height: 65%;  
+.top-container-image{
+    width: 60%;
+    height: 60%;  
+}
+
+.top-link{
+    font-size: 12px;
 }
 
 .introduction-name{
