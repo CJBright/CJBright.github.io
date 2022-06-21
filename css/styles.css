@@ -61,6 +61,10 @@ ul {
     text-decoration: underline;
 }
 
+.underlined-dotted{
+    border-bottom: 1px dotted black;
+}
+
 .body-text{
     margin-top: 32px;
     margin-bottom: 40px;
