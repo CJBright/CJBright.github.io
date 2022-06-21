@@ -40,6 +40,7 @@ ul {
 
 /****** Class selectors ******/
 /* */
+
 /*General items*/
 /**/
 .emphasised{
@@ -77,9 +78,9 @@ ul {
 }
 
 .top-container-text{
+    font-size: 18px;
     position: relative;
     padding-bottom: 20px;
-    font-size: 18px;
     margin-bottom: 0;
 }
 
@@ -101,10 +102,17 @@ ul {
 }
 
 .mid-container-table{
-    position: relative;
-    padding-right: 4.5%;
     width: 85%;
     margin-bottom: 20px;
+}
+
+#education-table{
+    position: relative;
+    padding-right: 4.5%;
+}
+
+#shell-table{
+    width: min(500px,40%);
 }
 
 .code-logo-body{
