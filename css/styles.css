@@ -61,10 +61,9 @@ ul {
 /**/
 .top-container{
     background-color: #D3EBCD;
-    padding: 10px;
-    margin: 0;
     position: relative;
-    padding-top: 12px;
+    padding: 0;
+    margin: 0;
 }
 
 .top-container-image{
@@ -72,18 +71,20 @@ ul {
     height: 60%;  
 }
 
-.top-link{
-    font-size: 12px;
-}
-
-.introduction-name{
+.top-container-title{
     position: relative;
-    padding-bottom: 7%;
+    padding-bottom: 0%;
 }
 
-.introduction-text{
+.top-container-text{
+    position: relative;
+    padding-bottom: 20px;
     font-size: 18px;
     margin-bottom: 0;
+}
+
+.top-link{
+    font-size: 12px;
 }
 
 /*mid-container items*/
@@ -94,40 +95,29 @@ ul {
     margin: 0;
 }
 
-.education-title{
+.mid-container-title{
     padding-bottom: 0px;
     margin-bottom: 15px;
 }
 
-.education-table{
+.mid-container-table{
     position: relative;
     padding-right: 4.5%;
-    width: 50%;
+    width: 85%;
     margin-bottom: 20px;
 }
 
-.code-logo{
+.code-logo-body{
     width: 130px;
     height: 130px;
     position: relative;
     padding: 10px 10px 15px 10px;
 }
 
-.code-logo-title{
-    width: 200px;
-    height: 200px;
-    position: relative;
-    padding: 10px 10px 15px 10px;
-}
-
-.phd-row{
-    padding-bottom: 15px;
-}
-
-.cfd-skill-image{
+.cfd-imgage-body{
     width: 600px;
     height: 230px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 /*bot-container items*/
 /**/
