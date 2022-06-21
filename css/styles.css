@@ -14,7 +14,15 @@ h1{
 h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 34px;
+    text-align: center;
+    padding: 5px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
     text-align: center;
     padding: 5px;
 }
@@ -57,6 +65,44 @@ ul {
     margin-top: 32px;
     margin-bottom: 40px;
     text-align: center;
+}
+
+.body-text-left{
+    margin-top: 32px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+li span {
+    display:block;
+    margin-left:-50%;
+}
+
+.tool-tip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tool-tip .tool-tip-text{
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.tool-tip:hover .tool-tip-text{
+    visibility: visible;
 }
 
 /*top-container items*/
@@ -103,8 +149,13 @@ ul {
 }
 
 .mid-container-table{
-    width: 85%;
     margin-bottom: 20px;
+    width: 85%;
+}
+
+.notes-table{
+    margin-bottom: 20px;
+    width: min(850px, 85%);
 }
 
 #education-table{
@@ -113,7 +164,7 @@ ul {
 }
 
 #shell-table{
-    width: min(500px,40%);
+    width: min(500px,45%);
     position: relative;
     padding-left: 3%;
 }
