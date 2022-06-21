@@ -1,12 +1,14 @@
-<img src="images/index/Charlie.png" align="right" width="200px" height="200px"/>
+<img src="images/index/Charlie.png" align="right" width="180px" height="180px"/>
 
 Developer blog!
 ===============
 
-Here is where my personal site is hosted. </br>
-The site is used to practice my skills in web development whilst providing a platform to store my notes on other programming platforms. </br>
+To view as a website, visit `https://cjbright.github.io/index.html`. </br>
+The site is used as to practice my web-development skills whilst hosting my notes and projects for my programming adventures. </br>
 The site contents include:
-- An `About me` page where readers can read about and contact me.
-- A `Shell` page. Containing notes and a link to my Shell repository.
-- A `Python` page. Containing notes and a link to my Python repository.
-- A `Web Development` page. Containing notes.
+- A `Welcome` landing page.
+- An `About me` page.
+- A `Shell` page.
+- A `Python` page.
+- A `HTML` page.
+- A `CSS` page.
