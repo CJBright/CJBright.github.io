@@ -164,7 +164,7 @@ li span {
 
 #education-table{
     position: relative;
-    padding-right: 4.5%;
+    padding-right: 7%;
 }
 
 #shell-table{
@@ -172,6 +172,11 @@ li span {
     position: relative;
     padding-left: 3%;
 }
+
+#conference-table{
+    margin-top: 32px;
+    margin-bottom: 40px;
+    text-align: center;}
 
 .code-logo-body{
     width: 130px;
