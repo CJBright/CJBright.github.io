@@ -173,23 +173,36 @@ li span {
     padding-left: 3%;
 }
 
-#conference-table{
-    margin-top: 32px;
-    margin-bottom: 40px;
-    text-align: center;}
-
 .code-logo-body{
     width: 130px;
     height: 130px;
     position: relative;
-    padding: 10px 10px 15px 10px;
+    padding: 10px 12px 15px 12px;
 }
 
-.cfd-imgage-body{
-    width: 600px;
-    height: 230px;
-    padding-bottom: 25px;
+#work-table{
+    width: min(800px, 80%);
 }
+
+.work-horizontal-body{
+    width: 297px;
+    height: 167px;
+}
+
+.work-vertical-body{
+    width: 210px;
+    height: 297px;
+}
+
+#conference-table{
+    width: min(800px,60%);
+}
+
+.conference-body{
+    width: 265px;
+    height: 100px;
+}
+
 /*bot-container items*/
 /**/
 .bot-container{
