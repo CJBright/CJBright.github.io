@@ -80,6 +80,10 @@ ul {
     padding-right: min(25%, 10cqw);
 }
 
+ul{
+    margin:1em;
+}
+
 li span {
     display:block;
     margin-left:-50%;
@@ -172,9 +176,8 @@ li span {
     width: min(600px, 80cqw);
     text-align: justify;
     font-size: min(16px, 4cqw);
+    padding-bottom: 20px;
 }
-
-
 
 .code-logo-body{
     width: 130px;
@@ -209,7 +212,7 @@ li span {
 
 .bot-container{
     background-color: #839AA8;
-    padding: 10px;
+    padding: 25px;
     margin: 0;
 }
 
