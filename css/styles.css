@@ -89,32 +89,7 @@ li span {
     margin-left:-50%;
 }
 
-.tool-tip{
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
 
-.tool-tip .tool-tip-text{
-    visibility: hidden;
-    width: 300px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -100px;
-}
-
-.tool-tip:hover .tool-tip-text{
-    visibility: visible;
-}
 
 /*****************************************/
 /* Top Container Class Selectors */
@@ -168,42 +143,23 @@ li span {
 .mid-container-title{
     font-size: min(34px, 7cqw);
     padding-bottom: 0px;
-    font-style: italic;
     margin-bottom: 15px;
+    font-style: italic;
 }
 
 .mid-container-text{
     width: min(600px, 80cqw);
     text-align: justify;
     font-size: min(16px, 4cqw);
-    padding-bottom: 20px;
 }
 
-.code-logo-body{
-    width: 130px;
-    height: 130px;
-    position: relative;
-    padding: 10px 12px 15px 12px;
+.rule-line{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-
-.work-horizontal-body{
-    width: 297px;
-    height: 167px;
-}
-
-.work-vertical-body{
-    width: 210px;
-    height: 297px;
-}
-
-#conference-table{
-    width: min(800px,60%);
-}
-
-.conference-body{
-    width: 265px;
-    height: 100px;
+#module-table{
+    text-align: left;
 }
 
 /*****************************************/
@@ -216,7 +172,70 @@ li span {
     margin: 0;
 }
 
-.contact-me{
+.bot-container-title{
+    font-size: min(34px, 7cqw);
+    padding-bottom: 0px;
     margin-bottom: 10px;
     margin-top: 10px;
+    font-style: italic;
+}
+
+.bot-container-text{
+    width: min(800px, 80cqw);
+    text-align: justify;
+    font-size: min(16px, 4cqw);
+}
+
+/*****************************************/
+/* Unused - Check before deleting
+/*****************************************/
+
+.code-logo-body{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    padding: 10px 12px 15px 12px;
+}
+
+.work-horizontal-body{
+    width: 297px;
+    height: 167px;
+}
+
+.work-vertical-body{
+    width: 210px;
+    height: 297px;
+}
+
+
+.conference-body{
+    width: 265px;
+    height: 100px;
+}
+
+.tool-tip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tool-tip .tool-tip-text{
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.tool-tip:hover .tool-tip-text{
+    visibility: visible;
 }
