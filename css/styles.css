@@ -42,12 +42,10 @@ hr {border-style: none;
     background-color: #AEDBCE;
     border-width: 5px;
     width: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-ul {
-    list-style-position: inside;
-    padding-left: 0;
-}
 
 /*****************************************/
 /* General Class Selectors */
@@ -71,25 +69,6 @@ ul {
     text-decoration: underline;
     font-style: italic;
 }
-
-.body-text{
-    margin-top: 32px;
-    margin-bottom: 40px;
-    text-align: left;
-    padding-left: min(25%, 10cqw);
-    padding-right: min(25%, 10cqw);
-}
-
-ul{
-    margin:1em;
-}
-
-li span {
-    display:block;
-    margin-left:-50%;
-}
-
-
 
 /*****************************************/
 /* Top Container Class Selectors */
@@ -127,7 +106,7 @@ li span {
 }
 
 .top-container-links{
-    font-size: min(14px, 4cqw);
+    font-size: min(14px, 5qw);
 }
 
 /*****************************************/
@@ -143,23 +122,29 @@ li span {
 .mid-container-title{
     font-size: min(34px, 7cqw);
     padding-bottom: 0px;
-    margin-bottom: 15px;
-    font-style: italic;
+    /* margin-bottom: 15px; */
+}
+
+.mid-container-text-title{
+    width: min(700px, 80cqw);
+    text-align: justify;
+    font-size: min(18px, 4cqw);
 }
 
 .mid-container-text{
-    width: min(600px, 80cqw);
+    width: min(700px, 80cqw);
     text-align: justify;
     font-size: min(16px, 4cqw);
 }
 
-.rule-line{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 
 #module-table{
     text-align: left;
+}
+
+#indent{
+    text-indent: 3em;
 }
 
 /*****************************************/
@@ -177,7 +162,6 @@ li span {
     padding-bottom: 0px;
     margin-bottom: 10px;
     margin-top: 10px;
-    font-style: italic;
 }
 
 .bot-container-text{
@@ -189,6 +173,14 @@ li span {
 /*****************************************/
 /* Unused - Check before deleting
 /*****************************************/
+
+.body-text{
+    margin-top: 32px;
+    margin-bottom: 40px;
+    text-align: left;
+    padding-left: min(25%, 10cqw);
+    padding-right: min(25%, 10cqw);
+}
 
 .code-logo-body{
     width: 130px;
@@ -206,7 +198,6 @@ li span {
     width: 210px;
     height: 297px;
 }
-
 
 .conference-body{
     width: 265px;
