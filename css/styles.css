@@ -137,14 +137,25 @@ hr {border-style: none;
     font-size: min(16px, 4cqw);
 }
 
+.conference-logo{
+    width: 300px;
+    height: 120px;
+}
 
+.phd-work-image{
+    width: 300px;
+    height: 175x;
+}
+
+.code-logo-image{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    padding: 10px 12px 15px 12px;
+}
 
 #module-table{
     text-align: left;
-}
-
-#indent{
-    text-indent: 3em;
 }
 
 /*****************************************/
@@ -168,65 +179,4 @@ hr {border-style: none;
     width: min(800px, 80cqw);
     text-align: justify;
     font-size: min(16px, 4cqw);
-}
-
-/*****************************************/
-/* Unused - Check before deleting
-/*****************************************/
-
-.body-text{
-    margin-top: 32px;
-    margin-bottom: 40px;
-    text-align: left;
-    padding-left: min(25%, 10cqw);
-    padding-right: min(25%, 10cqw);
-}
-
-.code-logo-body{
-    width: 130px;
-    height: 130px;
-    position: relative;
-    padding: 10px 12px 15px 12px;
-}
-
-.work-horizontal-body{
-    width: 297px;
-    height: 167px;
-}
-
-.work-vertical-body{
-    width: 210px;
-    height: 297px;
-}
-
-.conference-body{
-    width: 265px;
-    height: 100px;
-}
-
-.tool-tip{
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.tool-tip .tool-tip-text{
-    visibility: hidden;
-    width: 300px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -100px;
-}
-
-.tool-tip:hover .tool-tip-text{
-    visibility: visible;
 }
