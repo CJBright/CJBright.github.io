@@ -120,21 +120,19 @@ hr {border-style: none;
 }
 
 .mid-container-title{
-    font-size: min(34px, 7cqw);
-    padding-bottom: 0px;
-    /* margin-bottom: 15px; */
+    font-size: min(40px, 8cqw);
 }
 
-.mid-container-text-title{
-    width: min(700px, 80cqw);
-    text-align: justify;
+.mid-container-text-role{
     font-size: min(18px, 4cqw);
+    text-align: justify;
+    width: min(700px, 80cqw);
 }
 
 .mid-container-text{
-    width: min(700px, 80cqw);
-    text-align: justify;
     font-size: min(16px, 4cqw);
+    text-align: justify;
+    width: min(700px, 80cqw);
 }
 
 .conference-logo{
@@ -147,15 +145,20 @@ hr {border-style: none;
     height: 175x;
 }
 
+.professional-additional-image{
+    width: min(500px, 80cqw);
+    height: min(350x, 65cqw);
+}
+
+#module-table{
+    text-align: left;
+}
+
 .code-logo-image{
     width: 130px;
     height: 130px;
     position: relative;
     padding: 10px 12px 15px 12px;
-}
-
-#module-table{
-    text-align: left;
 }
 
 /*****************************************/
